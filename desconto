@@ -1,0 +1,24 @@
+package controle;
+ import java.util.Scanner;
+ 
+ 
+public class somaSimples {
+	public static void main(String[]args) {
+	
+	Scanner sc = new Scanner(System.in);
+	System.out.print("dgite seu salario bruto");
+	double bruto = sc.nextDouble();
+	
+	System.out.print("digite o desconto do Inss");
+	double desconto = sc.nextDouble();
+	
+	
+	
+
+      	 
+	
+     
+     System.out.println("o salario liquido é " + (bruto-desconto));
+     sc.close();
+	}
+}
