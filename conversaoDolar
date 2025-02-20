@@ -1,0 +1,27 @@
+package controle;
+import java.util.Scanner;
+
+public class somaSimples {
+    public static void main(String[] args) {
+        
+     
+        Scanner sc = new Scanner(System.in);
+        
+       
+        System.out.print("Digite o valor em reais (R$): ");
+        double valorReais = sc.nextDouble();
+        
+       
+        System.out.print("Digite a cotação do dólar (US$): ");
+        double cotacaoDolar = sc.nextDouble();
+        
+       
+        double valorDolares = valorReais / cotacaoDolar;
+        
+        
+        System.out.printf("O valor de R$ %.2f equivale a US$ %.2f\n", valorReais, valorDolares);
+        
+        
+        sc.close();
+    }
+}
